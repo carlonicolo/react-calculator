@@ -23,7 +23,7 @@ const App = () => {
     if (firstNumber === "0") {
       setFirstNumber(String(currentNumber));
       setCurrentNumber("0");
-      setOperation("+");
+      setOperation("x");
     } else {
       const mult = Number(firstNumber) * Number(currentNumber);
       setCurrentNumber(String(mult));
